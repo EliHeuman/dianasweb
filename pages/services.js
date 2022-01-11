@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Services() {
     return (
         <div className="card bg-dark text-white">
-        <Image src="/../public/contact.jpg" className="img-fluid" width="1600" height="900"  alt="home page"/>
+        <Image src="/../public/services.jpg" className="img-fluid" width="1600" height="900"  alt="home page"/>
             {/* <img className="card-img" src="/../public/home.jpg" alt="Card image"> */}
             <div className="card-img-overlay">
               {/* <h5 className="card-title">Card title</h5>
