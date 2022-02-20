@@ -2,14 +2,38 @@ import Image from 'next/image';
 
 export default function Services() {
     return (
-        <div className="card bg-dark text-white">
-        <Image src="/../public/services.jpg" className="img-fluid" width="1600" height="900"  alt="home page"/>
-            {/* <img className="card-img" src="/../public/home.jpg" alt="Card image"> */}
-            <div className="card-img-overlay">
-              {/* <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p className="card-text">Last updated 3 mins ago</p> */}
-            </div>
+ <div>
+            
+  <main className="container" >
+  {/* <!-- Bio information area --> */}
+<div className="row featurette">
+  <div className="col-md-7 order-md-2">
+    <h2 className="featurette-heading"><span className="text-muted">Services</span></h2>
+    <p className="lead">
+     <ul>
+         <li><h6>Strategy</h6>
+            Build a digital marketing plan.
+            Tailor-made for your unique business.
+         </li>
+         <li><h6>Digital profiles</h6>
+            Optimize social media profiles:
+            Google my business, Instagram, Facebook, Linkedin, Twitter, Pinterest.
+         </li>
+         <li><h6>Website audits</h6>
+            Reduce the bounce rate from your website.
+            A full audit of what needs to be fixed on your website so that visitors become customers.
+         </li>
+         <li><h6>Social post template</h6>
+            Create social content quickly.
+            I will build customizable templates that fit your business's brand.
+         </li>
+     </ul>
+    </p>    
+  </div>
+  {/* <!-- Eli Heuman picture image insert --> */}
+</div>
+
+</main>
         </div>
 
     )
