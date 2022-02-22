@@ -14,7 +14,7 @@ function Home() {
                 <div className="row gy-4">
                     <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
                         <h1>Digital marketing simplified</h1>
-                        <h2>We are team of talented designers making websites with Bootstrap</h2>
+                        <h2>Are your marketing efforts falling flat? I'm here to help.</h2>
                         <div>
                             <a href="#about" className="btn-get-started scrollto">Get Started</a>
                         </div>
@@ -36,7 +36,7 @@ function Home() {
 
     <div className="row justify-content-between">
       <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-        <img src="/diana.jpg" className="img-fluid" alt="Diana Heuman" data-aos="zoom-in"/>
+        <img src="/about.png" className="img-fluid" alt="Diana Heuman" data-aos="zoom-in"/>
    
       </div>
       <div className="col-lg-6 pt-5 pt-lg-0">
@@ -284,42 +284,42 @@ function Home() {
     <ul className="faq-list" data-aos="fade-up" data-aos-delay="100">
 
       <li>
-        <div data-bs-toggle="collapse" className="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" className="collapsed question" href="#faq1">Are people leave your website without a booking?<i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
         <div id="faq1" className="collapse" data-bs-parent=".faq-list">
           <p>
-            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+          I'll audit your website and find all the issues causing a high bounce rate.
           </p>
         </div>
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq2" className="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq2" className="collapsed question">I've hired marketing people before, and it hasn't worked out. How are you different?<i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
         <div id="faq2" className="collapse" data-bs-parent=".faq-list">
           <p>
-            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+            I hear you, and from the start, we will set goals and expectations to get the results you want from our work together.
           </p>
         </div>
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq3" className="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq3" className="collapsed question">I find social media overwhelming; what can I do? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
         <div id="faq3" className="collapse" data-bs-parent=".faq-list">
           <p>
-            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+          There are different ways to show up online. I'll teach you how to create content that feels natural and connects with your client.
           </p>
         </div>
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq4" className="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq4" className="collapsed question">I've done marketing before and even have a plan, but I haven't had success with it. What should I do? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
         <div id="faq4" className="collapse" data-bs-parent=".faq-list">
           <p>
-            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+          Fantastic, I'll go over your marketing history and create a winning strategy combining data, research, and creativity.
           </p>
         </div>
       </li>
 
-      <li>
+      {/* <li>
         <div data-bs-toggle="collapse" href="#faq5" className="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
         <div id="faq5" className="collapse" data-bs-parent=".faq-list">
           <p>
@@ -335,7 +335,7 @@ function Home() {
             Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
           </p>
         </div>
-      </li>
+      </li> */}
 
     </ul>
 

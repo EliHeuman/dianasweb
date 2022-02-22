@@ -10,6 +10,7 @@ function NavBar() {
 
    <div class="logo">
      <h1 class="text-light"><a href="index.html"><span>Diana Heuman Digital Marketing</span></a></h1>
+     <h1>WEBSITE IS UNDER CONSTRUCTION</h1>
      {/* <!-- Uncomment below if you prefer to use an image logo --> */}
      {/* <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> */}
    </div>

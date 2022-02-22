@@ -5,7 +5,6 @@ export default function Contact() {
         <circle className='md-v-line'>
             <a>
             dianaheu1@gmail.com<br/>
-            
             </a>
             <br/>
             {/* <a>
